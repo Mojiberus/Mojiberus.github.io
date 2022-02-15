@@ -9,10 +9,12 @@ html{
   background-color: black;
   text-align: center;
   font-family: Product Sans;
+  margin: 0;
   }
   
 body{
   color: white;
+  margin: 10px;
 }
 
 footer{
