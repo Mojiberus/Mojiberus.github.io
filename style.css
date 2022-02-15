@@ -1,7 +1,15 @@
 html{
   background-color: black;
+  text-align: center;
   }
 body{
   color: white;
-  text-align: center;
+}
+footer{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
