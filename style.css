@@ -1,13 +1,7 @@
-@font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-}
-
 html{
   background-color: black;
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
   }
   
 body{
@@ -36,15 +30,22 @@ article{
 a{
   text-decoration: none;
   color: white;
-  width: 90%;
+}
+.h2_links{
+  background-color: #1e1f20;
+  padding: 10px;
+  width: 30%;
+  display: inline-block;
+  border-radius: 15px;
 }
 .container{
   column-count: 2;
-  column-gap: 30px;
+  column-gap: 20px;
 }
 .a_tg{
   display: inline-block;
   flex: auto;
+  width: 80%;
   padding: 30px;
   margin-top: 40px;
   background-color: #29a8eb;
@@ -53,8 +54,18 @@ a{
 .a_vk{
   display: inline-block;
   flex: auto;
+  width: 80%;
   padding: 30px;
   margin-top: 40px;
   background-color: #2787f5;
+  border-radius: 20px;
+}
+.a_res{
+  display: inline-block;
+  flex: auto;
+  width: 90%;
+  padding: 30px;
+  margin-top: 40px;
+  background-color: #222930;
   border-radius: 20px;
 }
