@@ -1,75 +1,84 @@
 html{
-  background-color: black;
-  text-align: center;
+  background-color: white;
   font-family: 'Noto Sans', sans-serif;
+  margin:40px;
+  text-align: center;
   }
   
 body{
-  color: white;
-}
-
-footer{
-  background-color: white;
   color: black;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  position: fixed;
-  bottom: 0px;
-  width: 60%;
-  bottom: 0;
-  margin-bottom: 0;
-  align-items: center;
-  font-size: 25px;
-  margin-left: 20%;
-  margin-right: 20%;
-  border-radius: 20px 20px 0 0;
 }
 
-article{
-  background-color: #2b2b2b;
-  padding: 30px;
-  margin: 20px;
-  border-radius: 20px;
-}
 a{
   text-decoration: none;
   color: white;
 }
-.h2_links{
-  background-color: #1e1f20;
-  padding: 20px;
-  width: 30%;
-  display: inline-block;
-  border-radius: 15px;
+h2{
+  color: white;
+  text-align: center;
+  padding: 10px 10px 0 10px;
 }
 .container{
-  column-count: 2;
-  column-gap: 20px;
+  background-color: rgb(172, 172, 172);
+  border-radius: 20px;
+  padding: 20px;
 }
 .a_tg{
   display: inline-block;
   flex: auto;
-  width: 75%;
+  width: 95%;
   padding: 30px;
-  margin-top: 40px;
+  margin-top: 0px;
   background-color: #29a8eb;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
 }
 .a_vk{
   display: inline-block;
   flex: auto;
-  width: 75%;
+  width: 95%;
   padding: 30px;
-  margin-top: 40px;
   background-color: #2787f5;
-  border-radius: 20px;
 }
 .a_res{
   display: inline-block;
   flex: auto;
-  width: 88%;
+  width: 95%;
   padding: 30px;
-  margin-top: 40px;
-  background-color: #222930;
+  background-color: #5c83aa;
+  border-radius: 0 0 20px 20px;
+}
+.devices{
+  margin-top: 30px;
   border-radius: 20px;
+  color: white;
+}
+.star2lte{
+  display: inline-block;
+  flex: auto;
+  width: 95%;
+  padding: 30px;
+  background-color: #a225ad;
+  border-radius: 20px 20px 0 0;
+}
+.merlinx{
+  display: inline-block;
+  flex: auto;
+  width: 95%;
+  padding: 30px;
+  background-color: #3f3dbe;
+}
+.pmt3131{
+  display: inline-block;
+  flex: auto;
+  width: 95%;
+  padding: 30px;
+  background-color: #1d1d1d;
+}
+.desktop{
+  display: inline-block;
+  flex: auto;
+  width: 95%;
+  padding: 30px;
+  background-color: #3d3d3d;
+  border-radius: 0 0 20px 20px;
 }
