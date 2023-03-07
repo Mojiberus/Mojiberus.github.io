@@ -21,31 +21,37 @@ h2{
 .container{
   background-color: rgb(172, 172, 172);
   border-radius: 20px;
-  padding: 20px;
+  padding: 20px 5px;
+  width: 75%;
+  align-self: center;
+  margin: auto;
 }
 .a_tg{
   display: inline-block;
   flex: auto;
-  width: 95%;
+  width: 90%;
   padding: 30px;
   margin-top: 0px;
   background-color: #29a8eb;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 5px 5px;
+  margin-bottom: 5px;
 }
 .a_vk{
   display: inline-block;
   flex: auto;
-  width: 95%;
+  width: 90%;
   padding: 30px;
   background-color: #2787f5;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
 .a_res{
   display: inline-block;
   flex: auto;
-  width: 95%;
+  width: 90%;
   padding: 30px;
   background-color: #5c83aa;
-  border-radius: 0 0 20px 20px;
+  border-radius: 5px 5px 20px 20px;
 }
 .devices{
   margin-top: 30px;
@@ -55,30 +61,38 @@ h2{
 .star2lte{
   display: inline-block;
   flex: auto;
-  width: 95%;
+  width: 90%;
   padding: 30px;
   background-color: #a225ad;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 5px 5px;
+  margin-bottom: 5px;
 }
 .merlinx{
   display: inline-block;
   flex: auto;
-  width: 95%;
+  width: 90%;
   padding: 30px;
   background-color: #3f3dbe;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 .pmt3131{
   display: inline-block;
   flex: auto;
-  width: 95%;
+  width: 90%;
   padding: 30px;
   background-color: #1d1d1d;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 .desktop{
   display: inline-block;
   flex: auto;
-  width: 95%;
+  width: 90%;
   padding: 30px;
   background-color: #3d3d3d;
-  border-radius: 0 0 20px 20px;
+  border-radius: 5px 5px 20px 20px;
+}
+.h2_dk{
+  margin-top: -20px;
 }
