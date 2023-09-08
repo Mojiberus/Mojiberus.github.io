@@ -4,7 +4,7 @@ html{
   margin:0;
   text-align: center;
   background-image: url(bg.jpg);
-  background-size: cover;
+  background-size: fill;
   }
   
 body{
@@ -21,10 +21,10 @@ h2{
   padding: 10px 10px 0 10px;
 }
 .container{
-  background-color: rgb(172, 172, 172);
   border-radius: 20px;
   padding: 15px;
-  width: 75%;
+  width:  75vw;
+  max-width: 55%;
   align-self: center;
   margin: auto;
 }
@@ -93,11 +93,18 @@ h2{
   width: 90%;
   padding: 30px;
   background-color: #3d3d3d;
-  border-radius: 5px 5px 20px 20px;
+  border-radius: 5px 5px;
+  margin-bottom: 5px;
 }
 .h2_dk{
   margin-top: -20px;
 }
-sakana-widget{
-  align-items: center;
+.laptop{
+  display: inline-block;
+  flex: auto;
+  width: 90%;
+  padding: 30px;
+  background-color: #5c5c5c;
+  border-radius: 5px 5px 20px 20px;
+  padding-top: -20px;
 }
